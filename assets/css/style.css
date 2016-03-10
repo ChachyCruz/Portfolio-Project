@@ -10,6 +10,24 @@ header > h1 {
   text-align: center;
   font-weight: 800;
   font-size: 36px;
-  color: white;
-  
+  color: #ffffff;
+
+}
+header > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+ul > li{
+  float: left;
+  margin: 0px 5px;
+}
+
+li > a {
+text-decoration: none;
+color: #ffffff;
+font-size: 18px;
+font-weight: 400;
 }
