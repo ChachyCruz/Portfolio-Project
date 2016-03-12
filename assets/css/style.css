@@ -20,13 +20,13 @@ header > ul {
   text-align: center;
 }
 
-ul > li{
+header > ul > li{
   display: inline;
   margin: 0px 5px;
 
 }
 
-li > a {
+header > ul > li > a {
 color: #ffffff;
 font-size: 18px;
 font-weight: 400;
