@@ -37,7 +37,13 @@ section {
 }
 section > h3 {
   margin: 0 0 40px 0;
+  font-size: 36px;
+
+section > h4 {
+  margin: 0 0 40px 0;
 }
+}
+
 #about > p {
   width: 60%;
   float: right;
@@ -47,5 +53,38 @@ section > h3 {
   display: inline-block;
 }
 #about > div > img {
+  width: 60%;
+}
+
+#Projects > div > div > p {
+  margin: 40px 0 0 0;
+}
+#Projects > div > div {
+  display: inline-block;
+  text-align: center;
+}
+#Projects > div > div > img {
+  margin: 0 0 40px 0;
   width: 90%;
+
+}
+
+footer {
+  background-color: #f1634f;
+}
+footer > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+footer >  ul > li {
+  display: inline;
+  margin: 0px 5px;
+}
+footer > ul > li > a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
 }
