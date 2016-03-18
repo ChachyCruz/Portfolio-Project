@@ -5,7 +5,7 @@ header {
   background-color: #f1634f;
   padding: 67px 0px;
 }
-header > h1 {
+header  h1 {
   margin: 0 0 40px 0;
   text-align: center;
   font-weight: 800;
@@ -13,7 +13,7 @@ header > h1 {
   color: #ffffff;
 
 }
-header > ul {
+header  ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -32,59 +32,83 @@ font-size: 18px;
 font-weight: 400;
 text-decoration: none;
 }
-section {
-      padding: 60px 80px;
+
+main {
+  padding: 0 80px;
 }
-section > h3 {
+section {
+      padding: 60px 0;
+      border-top: 4px groove;
+}
+section  p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4A4A4A;
+  font-family: 'Open Sans';
+}
+section h3 {
   margin: 0 0 40px 0;
   font-size: 36px;
-
-section > h4 {
-  margin: 0 0 40px 0;
+  font-weight: 600;
+  color: #986d64;
+  font-family: 'Open Sans';
 }
+
+section h4 {
+  margin: 0 0 40px 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #4A4A4A;
+  font-family: 'Open Sans';
 }
 
 #about > p {
-  width: 60%;
-  float: right;
+  font-weight: 400;
+  font-size: 20px;
+  color: #4A4A4A;
+  font-family: 'Open Sans';
 }
-#about > div {
+/*#about > div {
   width: 40%;
-  display: inline-block;
+  display: inline-block;*/
 }
-#about > div > img {
+#about-image {
   width: 60%;
+}
+
+#p1 > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #Projects > div > div > p {
   margin: 40px 0 0 0;
+  font-weight: 600;
+  font-size: 24px;
+  color: #f1634f;
+  font-family: 'Open Sans';
 }
-#Projects > div > div {
-  display: inline-block;
-  text-align: center;
-}
-#Projects > div > div > img {
+
+#Projects > div > div > div > img {
   margin: 0 0 40px 0;
-  width: 90%;
-
 }
-
 footer {
   background-color: #f1634f;
 }
-footer > ul {
+footer ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  text-align: center;
+  text-align:center;
 }
-footer >  ul > li {
+footer ul  li {
   display: inline;
   margin: 0px 5px;
 }
-footer > ul > li > a {
+footer ul > li > a {
   color: #ffffff;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 600;
   text-decoration: none;
 }
